@@ -9,7 +9,7 @@ don't forget to set your openai api key in the settings.
 ## Usage
 - /ai:hello
 - /ai:who was ada lovelace?; 
-- use ";" make sure only the text between /ai: and ; is used as a prompt. 
+- use ";" as separator to make sure only the text between /ai: and ; is used as a prompt. 
 
 ## Contributing
 Pull requests are welcome.
