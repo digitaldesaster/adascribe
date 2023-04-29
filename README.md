@@ -4,10 +4,11 @@
 
 ## Installation
 download the folder to your computer and add it as a chrome extension.
+don't forget to set your openai api key in the settings. 
 
 ## Usage
 /ai:hello
-/ai:who was ada lovelace; 
+/ai:who was ada lovelace?; 
 use ";" make sure only the text between /ai: and ; is used as a prompt. 
 
 ## Contributing
