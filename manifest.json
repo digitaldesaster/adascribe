@@ -1,0 +1,27 @@
+{
+  "name": "AdaScribe",
+  "description": "Integrates chatGPT in any textbox / text area. The extension intercepts the enter key. The format is /ai:hello;\nThe prompt should end with ';'. If not, the complete text after /ai: will be used!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "idea.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

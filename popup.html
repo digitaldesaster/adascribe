@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <style>
+        body {
+            width: 400px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Settings</h1>
+    <form id="settingsForm">
+        <label for="openaiApiKey">OPENAI_API_KEY:</label>
+        <input type="text" id="openaiApiKey" name="openaiApiKey" style="width: 100%;"><br><br>
+
+        <label for="systemMessage">SYSTEM_MESSAGE:</label>
+        <textarea id="systemMessage" name="systemMessage" rows="2" style="width: 100%;"></textarea><br><br>
+
+        <label for="maxTokenLength">Max Token Length:</label>
+        <input type="number" id="maxTokenLength" name="maxTokenLength"><br><br>
+
+        <button type="submit" id="saveBtn">Save</button>
+    </form>
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
